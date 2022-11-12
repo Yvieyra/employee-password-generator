@@ -1,6 +1,10 @@
 
 //var actualPassword = password.slice(0, userChoice - guarantted.length) + guarantted;
+
+
 // Assignment code here
+
+
 var lowerCase =["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 var specialChar = ["!","@","*","&","+","#","%","." ]
@@ -26,26 +30,12 @@ var password = '';
   }
 // }
 
-//The password should be random based on their answers - DONE
-// we need to guarentee the user what they input - Progress
+function generatePassword() { 
+if (passwordLength === numbers.splice) {
+console.log([]);
+}
 
-//The password needs to stay within user lenth choice (.length)
-//What if the user said no to all options offered? 
-
-
-// function generatePassword() { 
-  generateBtn.addEventListener("click", writePassword); {
- //thinking about writing my Math.floor.Math.random equation in here. 
-//  if (passwordLetters === "yes") {
-  for (var i = 0; i < totalCharacters.length; i++) {
-    var randomNumber = Math.floor(Math.random() * lowerCase.length);
-    var letter = lowerCase[randomNumber];
-
-   if (totalCharacters > passwordLength.length) {
-        password += letter;
-   }
-    
-  }}
+  }
 
 
 // Get references to the #generate element
@@ -61,3 +51,11 @@ function writePassword() {
 
 // Add event listener to generate button
 // generateBtn.addEventListener("click", writePassword);
+//  if (passwordLetters === "yes") {
+// for (var i = 0; i < totalCharacters.length; i++) {
+//   var randomNumber = Math.floor(Math.random() * lowerCase.length);
+//   var letter = lowerCase[randomNumber];
+
+//  if (totalCharacters > passwordLength.length) {
+//       password += letter;
+// //  
