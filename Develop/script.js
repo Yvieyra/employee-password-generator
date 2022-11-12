@@ -21,7 +21,7 @@ if (passwordLength >= 8 && passwordLength <= 128) {
   var passwordNumbers = window.prompt("Would you like your password to include numbers? yes or no.");
   // console.log(passwordNumbers);
 } else {
-  window.alert("Please try again, value must be no less than 8 and no more than 125.")
+  window.alert("Please try again, value must be no less than 8 and no more than 125.") // If user selects a number out less than 8 or higher than 125 there will be a window alert asking user to try again.
 }
 
 //The below code is what is needed to generate the password and write password to the text reas on the webpage.
