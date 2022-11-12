@@ -12,3 +12,5 @@ The user is going to be directed to a webpage that has a window confirmation, st
 ## Link to site
 
 ## Screenshot 
+<img href="/Develop/assets/images/Screenshot Generate Password .png>
+<img href="/Develop/assets/images/window confirm screenshot .png>
